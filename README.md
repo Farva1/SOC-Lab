@@ -1,2 +1,2 @@
-# SOC-Lab
-Hands-on project: Log analysis and threat hunting using Splunk
+# SOC-Lab-Splunk
+Threat hunting using Splunk with Apache logs (404 errors, suspicious IPs, alerts, dashboard).
