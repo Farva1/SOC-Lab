@@ -28,8 +28,7 @@ This lab was based on Splunk Enterprise and involved uploading Apache web server
 
    <img width="954" height="511" alt="splunk4" src="https://github.com/user-attachments/assets/0ad02c91-79f0-4c3b-af81-d19fd531131e" />
 
-- Then I narrowed down to suspicious IPs that had over 100 requests:
-    **sourcetype=access_combined | stats count by clientip | where count > 100**
+- Then I narrowed down to suspicious IPs that had over 100 requests: **sourcetype=access_combined | stats count by clientip | where count > 100**
 
 <img width="960" height="537" alt="Splunk8" src="https://github.com/user-attachments/assets/cef8b714-ab07-41c0-8167-daeed2dfe1cc" />
 
