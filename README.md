@@ -21,6 +21,21 @@ This lab was based on Splunk Enterprise and involved uploading Apache web server
 - This provided me with a bar/line chart with spikes in 404 errors.
   
   <img width="943" height="510" alt="Splunk3" src="https://github.com/user-attachments/assets/14da8716-3eee-44f0-867c-a985d9b4f767" />
+  
+- After that I searched best IPs that made requests:
+  **sourcetype=access_combined | stats count by clientip | sort -count**
+ - This displayed the IP addresses that had the highest hits to the server.
+
+   <img width="954" height="511" alt="splunk4" src="https://github.com/user-attachments/assets/0ad02c91-79f0-4c3b-af81-d19fd531131e" />
+
+- then I narrowed down to suspicious IPs that had over 100 requests:
+
+**sourcetype=access_combined | stats count by clientip | where count > 100**
+
+<img width="960" height="537" alt="Splunk8" src="https://github.com/user-attachments/assets/cef8b714-ab07-41c0-8167-daeed2dfe1cc" />
+
+
+
 
 
 
