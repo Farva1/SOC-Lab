@@ -10,7 +10,7 @@ This lab was based on Splunk Enterprise and involved uploading Apache web server
 - Logged into my local Splunk instance (localhost:8000).
   <img width="957" height="510" alt="Splunk 1" src="https://github.com/user-attachments/assets/34973241-6a3d-4c03-9ea7-2c12027c5a18" />
 - Uploaded the file apachelogs.txt.
-- Selected the source type as accesscombined so Splunk could understand the log format.
+- Selected the source type as access_combined so Splunk could understand the log format.
   <img width="949" height="461" alt="Splunk2" src="https://github.com/user-attachments/assets/8f6972c5-e313-466f-ac6c-2802615e6526" />
   
 
