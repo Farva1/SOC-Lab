@@ -41,6 +41,7 @@ This lab was based on Splunk Enterprise and involved uploading Apache web server
 - Set it to run on a schedule (every 5 minutes).
 
   <img width="956" height="513" alt="splunk5" src="https://github.com/user-attachments/assets/5c133bcb-1ead-4488-a0e2-4a320add8b4f" />
+
   
 
   <img width="958" height="508" alt="splunk6" src="https://github.com/user-attachments/assets/059cb9ad-078e-4646-958f-b58cd2a77ab9" />
@@ -51,9 +52,9 @@ This lab was based on Splunk Enterprise and involved uploading Apache web server
  - Splunk displayed all logs for that IP, including timestamps and requests.
 
    <img width="956" height="511" alt="Splunk7" src="https://github.com/user-attachments/assets/2fd68a47-9964-4a44-893f-9cbeba388eb6" />
-
-   **5. Build a SOC Dashboard**
-   - Finally, I created a SOC Dashboard – Apache Logs with panels:
+   
+ **5. Build a SOC Dashboard**
+ - Finally, I created a SOC Dashboard – Apache Logs with panels:
 
 404 Errors Over Time (line chart)
 
