@@ -56,11 +56,11 @@ This lab was based on Splunk Enterprise and involved uploading Apache web server
  **5. Build a SOC Dashboard**
  - Finally, I created a SOC Dashboard – Apache Logs with panels:
 
-404 Errors Over Time (line chart)
+    - 404 Errors Over Time (line chart)
 
-Top IPs by Request Count (table)
+    - Top IPs by Request Count (table)
 
-Top 404 Generators (table)
+    - Top 404 Generators (table)
 
 <img width="957" height="512" alt="Splunk10" src="https://github.com/user-attachments/assets/cb049f66-a223-436a-8dd5-eb985a327d0c" />
 
@@ -78,7 +78,7 @@ Top 404 Generators (table)
 
 - Building a SOC dashboard for monitoring
 
-  **Conclusion**
+**Conclusion**
   This Splunk project gave me hands-on practice with log analysis and threat hunting. I learned how to go from raw logs to meaningful insights, set alerts for potential issues, and build a dashboard for monitoring activity.
 
 
