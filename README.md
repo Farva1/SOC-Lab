@@ -81,6 +81,7 @@ This lab was based on Splunk Enterprise and involved uploading Apache web server
 **Conclusion**
   This Splunk project gave me hands-on practice with log analysis and threat hunting. I learned how to go from raw logs to meaningful insights, set alerts for potential issues, and build a dashboard for monitoring activity.
 
+
 ### Author
 
 **Umme Farva**  
